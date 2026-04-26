@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C1 Cloud Station - รวมช่องทางร้าน</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0a0f2e;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: #111635;
+            border: 2px solid #c9a406;
+            border-radius: 20px;
+            padding: 40px 30px;
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 800;
+            color: #ffd700;
+            letter-spacing: 4px;
+            margin-bottom: 5px;
+        }
+
+        .sub-title {
+            color: #6b7ab8;
+            font-size: 14px;
+            margin-bottom: 35px;
+            letter-spacing: 2px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #c9a406, transparent);
+            margin: 0 auto 30px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            padding: 16px 20px;
+            margin-bottom: 14px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1.5px solid transparent;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .btn-facebook {
+            background: #1877f2;
+            color: #fff;
+            border-color: #1877f2;
+        }
+        .btn-facebook:hover { background: #1557c0; }
+
+        .btn-instagram {
+            background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+            color: #fff;
+            border-color: transparent;
+        }
+        .btn-instagram:hover { opacity: 0.9; }
+
+        .btn-discord {
+            background: #5865f2;
+            color: #fff;
+            border-color: #5865f2;
+        }
+        .btn-discord:hover { background: #4752c4; }
+
+        .btn-tiktok {
+            background: #000;
+            color: #fff;
+            border-color: #4a4a4a;
+        }
+        .btn-tiktok:hover { background: #1a1a1a; }
+
+        .btn-website {
+            background: #0a0f2e;
+            color: #ffd700;
+            border-color: #c9a406;
+        }
+        .btn-website:hover {
+            background: #c9a406;
+            color: #0a0f2e;
+        }
+
+        .icon {
+            font-size: 20px;
+            width: 24px;
+            text-align: center;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #4a5580;
+            font-size: 12px;
+        }
+
+        .broken-note {
+            margin-top: 25px;
+            background: #1a1f4a;
+            border: 1px solid #c9a40655;
+            border-radius: 10px;
+            padding: 14px;
+        }
+        .broken-note .label {
+            color: #c9a406;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+        .broken-note .machines {
+            color: #6b7ab8;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">C1</div>
+        <div class="sub-title">CLOUD STATION · ร้านเช่าคอม</div>
+        <div class="divider"></div>
+
+        <a href="https://www.facebook.com/share/1AuZcfXWnN/" target="_blank" class="btn btn-facebook">
+            <span class="icon">📘</span> Facebook
+        </a>
+
+        <a href="https://www.instagram.com/c1cloudstatoin?igsh=MTQwazNmczM1cGRlcg==" target="_blank" class="btn btn-instagram">
+            <span class="icon">📸</span> Instagram
+        </a>
+
+        <a href="https://discord.gg/s29xPrkG38" target="_blank" class="btn btn-discord">
+            <span class="icon">💬</span> Discord
+        </a>
+
+        <a href="https://www.tiktok.com/@c1cloudstation?_r=1&_t=ZS-95r0fgok5sy" target="_blank" class="btn btn-tiktok">
+            <span class="icon">🎵</span> TikTok
+        </a>
+
+        <a href="http://c1gaming.myvnc.com:3001/" target="_blank" class="btn btn-website">
+            <span class="icon">💻</span> เปิดเครื่องออนไลน์
+        </a>
+
+        <div class="broken-note">
+            <div class="label">⚠ เครื่องเสีย</div>
+            <div class="machines">เครื่อง #28 · #46 · #60 · #81</div>
+        </div>
+
+        <div class="footer">
+            © 2026 C1 Cloud Station
+        </div>
+    </div>
+</body>
+</html>
